@@ -1,0 +1,162 @@
+body{
+    margin:0;
+}
+
+h1 h2 h3 h4 h5{
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+}
+p {
+    font: #777777;
+    font-size:16px;
+}
+.container{
+    background:#666666;
+    position:fixed;
+    width:100%;
+    height:100%;
+
+}
+.header{
+    background:#ffffff;
+    border-bottom: 2px solid #cccccc;
+    width:100%;
+    margin-bottom: 5%;
+    position:fixed;
+    text-align:right;
+    
+}
+.namebox{
+    background: #4aaaa5;
+    padding: 2%;
+    width:15%;
+    color:#ffffff;
+    font-weight: bold;
+    font-size:18px;
+    float:left;
+    margin-left:10%;
+    text-align:center;
+}
+.sec{
+    background:#ffffff;
+    margin-top:15%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom:10%;
+    width:960px;
+    position:relative;
+    height:42%;
+}
+
+.sectop{
+    color: #4aaaa5;
+    font-weight:bold;
+    font-size:18px;
+    background:#ffffff;
+    padding:2%;
+
+}
+.secmid{
+    background:#ffffff;
+    float:left;
+    border-top: 2px solid #dddddd;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#bioimg{
+    width:200px;
+    float:left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+.bodytext{
+    background:#ffffff;
+    color:#777777;
+    margin-left:2%;
+    
+
+}
+.footer{
+    padding:20px;
+    border-top: 8px solid #4aaaa5;
+    text-align:center;
+    background:#666666;
+    color:#cccccc;
+    clear:both;
+    position:fixed;
+    margin-top:3%;
+    width:100%;
+    border-bottom: 800px solid #ffffff;
+
+    
+}
+.nav{
+    margin-right:10%;
+    float:right;
+    text-align:right;
+}
+.form{
+    margin-left:2%;
+    width:900px;
+    float:left;
+    clear:both;
+    
+}
+.formname{
+    
+    
+    
+    
+}
+.formemail{
+    position:absolute;
+    top:90px;
+    
+}
+.formmessage{
+    position:absolute;
+    top:120px;
+    
+    padding:5%;
+    f
+}
+.formsubmit{
+    position:absolute;
+    top:225px;
+    
+    background:#4aaaa5;
+    
+}
+.portmid{
+    
+}
+#portimg{
+    width:100px;
+    float:left;
+    margin:1%;
+}
+#portimg1{
+    width:100px;
+    float:left;
+    margin:1%;
+    
+}
+#portimg2{
+    width:100px;
+    float:left;
+    clear:both;
+    margin:1%;
+}
+#portimg3{
+    width:100px;
+    float:left;
+    margin:1%;
+}
+#portimg4{
+    width:100px;
+    float:left;
+    clear:both;
+    margin:1%;
+}
+
+
