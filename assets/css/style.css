@@ -79,24 +79,36 @@ p {
     
 
 }
-.footer{
+/* .footer{
     padding:20px;
     border-top: 8px solid #4aaaa5;
     text-align:center;
     background:#666666;
     color:#cccccc;
-    clear:both;
-    position:fixed;
+    position: fixed;
     margin-top:3%;
     width:100%;
     border-bottom: 800px solid #ffffff;
 
     
-}
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding:20px;
+ }
+
 .nav{
     margin-right:10%;
     float:right;
     text-align:right;
+    margin-top:20px;
 }
 .form{
     margin-left:2%;
@@ -134,7 +146,7 @@ p {
     margin-left: 2%;
     margin-right: 2%;
 }
-#portimg{
+/* #portimg{
     width:100px;
     float:left;
     margin:1%;
@@ -161,6 +173,21 @@ p {
     float:left;
     clear:both;
     margin:1%;
+} */
+
+#portimg {
+    height: 100px
 }
 
+.img-float {
+    float: right;
+}
 
+.img-text {
+    background-color: teal;
+    padding: 20px 0;
+}
+
+.img-container {
+    width: 50px;
+}
