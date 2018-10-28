@@ -81,6 +81,7 @@ img{
     border-top: 2px solid #dddddd;
     margin-left: 2%;
     margin-right: 2%;
+    
     z-index:0;
 }
 #bioimg{
@@ -130,36 +131,75 @@ img{
     margin-top:20px;
 }
 .form{
+    width:900px;
+   
+    
+}
+.fcontain {
     margin-left:2%;
     margin-top:2%;
-    width:900px;
-    float:left;
-    clear:both;
-    
+    width:40%;
+    position:fixed;
+    height:50%;
 }
+
 .formname{
+    position:absolute;
+    width: 100%;
+    height:5%;
+    bottom: 80%;
+    left: 140px;
 }    
     
-}
+
 .formemail{
     position:absolute;
-    top:90px;
+    width: 100%;
+    height:5%;
+    bottom: 70%;
+    left: 140px;
     
 }
 .formmessage{
     position:absolute;
-    top:120px;
-    
+    width: 90%;
+    height:10%;
+    bottom: 40%;
+    left: 140px;  
     padding:5%;
-    f
+
 }
 .formsubmit{
-    position:absolute;
-    top:225px;
-    
     background:#4aaaa5;
+    position:absolute;
+    width: 40%;
+    bottom: 30%;
+    left: 140px;
     
 }
+.formlabel{
+    position: absolute;
+    left: 70px;
+    bottom:75%;
+    width: 25%;
+}
+.formlabel1{
+    position:absolute;
+    left: 70px;
+    bottom: 65%;
+    width: 25%;
+    
+}
+.formlabel2{
+    position:absolute;
+    left: 70px;
+    bottom: 55%;
+    width: 25%;
+}
+
+
+
+
 .portmid{
     border-top: 2px solid #dddddd;
     margin-left: 2%;
@@ -179,3 +219,10 @@ img{
     width: 100%;
     color: white;
 }
+.sec-border{
+    border-top: 2px solid #dddddd;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-bottom:2%;
+}
+
