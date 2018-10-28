@@ -141,6 +141,10 @@ img{
    
     
 }
+.form2{
+
+}
+
 .fcontain {
     margin-left:2%;
     margin-top:2%;
@@ -149,58 +153,12 @@ img{
     height:50%;
 }
 
-.formname{
-    position:absolute;
-    width: 100%;
-    height:5%;
-    bottom: 80%;
-    left: 140px;
-}    
-    
-
-.formemail{
-    position:absolute;
-    width: 100%;
-    height:5%;
-    bottom: 70%;
-    left: 140px;
-    
-}
-.formmessage{
-    position:absolute;
-    width: 90%;
-    height:10%;
-    bottom: 40%;
-    left: 140px;  
-    padding:5%;
+.textbox{
+    margin-bottom:2%;
 
 }
-.formsubmit{
-    background:#4aaaa5;
-    position:absolute;
-    width: 40%;
-    bottom: 30%;
-    left: 140px;
-    
-}
-.formlabel{
-    position: absolute;
-    left: 70px;
-    bottom:75%;
-    width: 25%;
-}
-.formlabel1{
-    position:absolute;
-    left: 70px;
-    bottom: 65%;
-    width: 25%;
-    
-}
-.formlabel2{
-    position:absolute;
-    left: 70px;
-    bottom: 55%;
-    width: 25%;
+.subbox{
+    background: #4aaaa5;
 }
 
 .portmid{
