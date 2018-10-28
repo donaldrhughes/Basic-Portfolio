@@ -8,7 +8,14 @@ h1 h2 h3 h4 h5{
 p {
     font: #777777;
     font-size:16px;
+    line-height: 24px;
 }
+
+.heading{
+    font-size: 20px;
+    color: blue;
+}
+
 .container{
     background:#666666;
     background-image: url("just-waves.png");
@@ -26,6 +33,7 @@ p {
     margin-bottom: 5%;
     position:fixed;
     text-align:right;
+    z-index:1;
     
 }
 .namebox{
@@ -41,13 +49,14 @@ p {
 }
 .sec{
     background:#ffffff;
-    margin-top:15%;
+    margin-top:14%;
     margin-left:10%;
     margin-right: 10%;
     margin-bottom:10%;
     width:960px;
     position:relative;
-    height:42%;
+    height:60%;
+    z-index:0;
 }
 
 .sectop{
@@ -146,48 +155,16 @@ p {
     margin-left: 2%;
     margin-right: 2%;
 }
-/* #portimg{
-    width:100px;
-    float:left;
-    margin:1%;
-}
-#portimg1{
-    width:100px;
-    float:left;
-    margin:1%;
-    
-}
-#portimg2{
-    width:100px;
-    float:left;
-    clear:both;
-    margin:1%;
-}
-#portimg3{
-    width:100px;
-    float:left;
-    margin:1%;
-}
-#portimg4{
-    width:100px;
-    float:left;
-    clear:both;
-    margin:1%;
-} */
-
-#portimg {
-    height: 100px
+.portfolio-item {
+    position: relative;
+    display: inline-block
 }
 
-.img-float {
-    float: right;
-}
-
-.img-text {
-    background-color: teal;
-    padding: 20px 0;
-}
-
-.img-container {
-    width: 50px;
+.portfolio-banner {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    background: teal;
+    width: 100%;
+    color: white;
 }
