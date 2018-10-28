@@ -1,9 +1,11 @@
 body{
     margin:0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 h2 h3 h4 h5{
-    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 p {
     font: #777777;
@@ -29,7 +31,10 @@ img{
     position:fixed;
     width:100%;
     height:100%;
-    
+
+
+}
+#main-container{
 
 }
 .header{
@@ -81,7 +86,7 @@ img{
     border-top: 2px solid #dddddd;
     margin-left: 2%;
     margin-right: 2%;
-    
+    width:60%;
     z-index:0;
 }
 #bioimg{
@@ -95,22 +100,23 @@ img{
     background:#ffffff;
     color:#777777;
     margin-left:2%;
+    margin-top:2%;
     
 
 }
-/* .footer{
+.body-left{
+    float:left;
+}
+.social{
+    position:relative;
+    top:0;
+    left:0;
+}
+.sec2{
+    float:right;
     padding:20px;
-    border-top: 8px solid #4aaaa5;
-    text-align:center;
-    background:#666666;
-    color:#cccccc;
-    position: fixed;
-    margin-top:3%;
-    width:100%;
-    border-bottom: 800px solid #ffffff;
-
-    
-} */
+    width:20%;
+}
 
 .footer {
     position: fixed;
@@ -197,9 +203,6 @@ img{
     width: 25%;
 }
 
-
-
-
 .portmid{
     border-top: 2px solid #dddddd;
     margin-left: 2%;
@@ -225,4 +228,3 @@ img{
     margin-right:2%;
     margin-bottom:2%;
 }
-
