@@ -142,23 +142,35 @@ img{
     
 }
 .form2{
-
+    width:100%;
+    
 }
-
+li {
+    margin:2%;
+}
 .fcontain {
+    width:50%;
+    height:100%;
     margin-left:2%;
-    margin-top:2%;
-    width:40%;
+
     position:fixed;
-    height:50%;
 }
 
 .textbox{
     margin-bottom:2%;
+    width:50%;
+
+}
+.textbox2{
+   
+    padding-bottom:70px;
+    width:50%;
 
 }
 .subbox{
+    margin-top:0%;
     background: #4aaaa5;
+    width:20%;
 }
 
 .portmid{
