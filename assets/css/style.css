@@ -7,6 +7,13 @@ h1 h2 h3 h4 h5{
     font-family: 'Roboto', sans-serif;
     
 }
+
+li {
+    margin:2%;
+}
+h3{
+ 
+}
 p {
     font: #777777;
     font-size:16px;
@@ -66,7 +73,7 @@ img{
     margin-bottom:10%;
     width:960px;
     position:relative;
-    height:60%;
+    height:65%;
     z-index:1;
 }
 
@@ -86,8 +93,9 @@ img{
     border-top: 2px solid #dddddd;
     margin-left: 2%;
     margin-right: 2%;
-    width:60%;
+    width:56%;
     z-index:0;
+    height:50%;
 }
 #bioimg{
     width:100px;
@@ -102,20 +110,28 @@ img{
     margin-left:2%;
     margin-top:2%;
     
+    
 
 }
 .body-left{
     float:left;
+    width:90%;
+  
 }
 .social{
-    position:relative;
-    top:0;
-    left:0;
+    position: relative;
+    left:140%;
+    bottom:100%;
+
+    padding:20px;
+    width: 20%;
+    height: 80%;
+    margin-top:2%;
+
 }
 .sec2{
-    float:right;
-    padding:20px;
-    width:20%;
+   background:#ffffff;
+    height:100%;
 }
 
 .footer {
@@ -145,9 +161,7 @@ img{
     width:100%;
     
 }
-li {
-    margin:2%;
-}
+
 .fcontain {
     width:50%;
     height:100%;
